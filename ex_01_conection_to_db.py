@@ -1,7 +1,6 @@
 import sqlite3
 from sqlite3 import Error
 
-
 def create_connection(db_file):
     """ create a database connection to the SQLite database
         specified by db_file
@@ -192,3 +191,4 @@ if __name__ == "__main__":
 
     print(pr_id, task_id)
     conn.commit()
+
